@@ -1,14 +1,15 @@
+import { assetUrl } from '../lib/asset'
 import useReveal from '../lib/useReveal'
 import './OfferGallery.css'
 
 const LEFT_CARDS = [
   {
-    image: '/people/d492f5583260f1fcab1978a61a8cbd2d.jpg',
+    image: assetUrl('/people/d492f5583260f1fcab1978a61a8cbd2d.jpg'),
     offer: '20% Off First Order',
     sub: 'Code FRUITIVO20',
   },
   {
-    image: '/people/7d555b95ffefb9fc9c5f64c340e77b87.jpg',
+    image: assetUrl('/people/7d555b95ffefb9fc9c5f64c340e77b87.jpg'),
     offer: 'Free Shipping $75+',
     sub: 'On every fragrance',
   },
@@ -16,17 +17,17 @@ const LEFT_CARDS = [
 
 const MIDDLE_CARDS = [
   {
-    image: '/banner/9d2935b8-e64b-4da5-bbf9-131a9b83f82e.png',
+    image: assetUrl('/banner/9d2935b8-e64b-4da5-bbf9-131a9b83f82e.png'),
     offer: 'New: Blue Wave',
     sub: 'A wave of freshness',
   },
   {
-    image: '/banner/a8a2f266-9745-4ab2-9480-c0900e5e0e12.png',
+    image: assetUrl('/banner/a8a2f266-9745-4ab2-9480-c0900e5e0e12.png'),
     offer: 'Shop The Collection',
     sub: 'Four signature scents',
   },
   {
-    image: '/banner/3452da4c-b8af-400c-8278-89986c138532.png',
+    image: assetUrl('/banner/3452da4c-b8af-400c-8278-89986c138532.png'),
     offer: 'Limited Edition',
     sub: 'While supplies last',
   },
@@ -34,12 +35,12 @@ const MIDDLE_CARDS = [
 
 const RIGHT_CARDS = [
   {
-    image: '/people/1d79a2f96c55e40ed685105da216843d.jpg',
+    image: assetUrl('/people/1d79a2f96c55e40ed685105da216843d.jpg'),
     offer: '100% Organic',
     sub: 'Certified ingredients',
   },
   {
-    image: '/people/af6777ce69cecd4b65da707386eb43c6.jpg',
+    image: assetUrl('/people/af6777ce69cecd4b65da707386eb43c6.jpg'),
     offer: 'Refer A Friend',
     sub: 'Give $10, get $10',
   },

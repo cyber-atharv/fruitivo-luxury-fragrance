@@ -1,9 +1,10 @@
+import { assetUrl } from '../lib/asset'
 import useReveal from '../lib/useReveal'
 import './PromoOffers.css'
 
 const TILES = [
   {
-    image: '/banner/9d2935b8-e64b-4da5-bbf9-131a9b83f82e.png',
+    image: assetUrl('/banner/9d2935b8-e64b-4da5-bbf9-131a9b83f82e.png'),
     heading: '20% Off Your First Order',
     body: 'New to Fruitivo? Use code FRUITIVO20 at checkout and save on your first bottle.',
     cta: 'Claim Your Discount',
@@ -19,7 +20,7 @@ const TILES = [
     ),
   },
   {
-    image: '/banner/3452da4c-b8af-400c-8278-89986c138532.png',
+    image: assetUrl('/banner/3452da4c-b8af-400c-8278-89986c138532.png'),
     heading: 'Free Shipping Over $75',
     body: "Stock up on your favorite scents and we'll get them to your door for free.",
     cta: 'Shop & Save',

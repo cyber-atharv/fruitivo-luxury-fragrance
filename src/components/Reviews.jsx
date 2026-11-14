@@ -1,27 +1,28 @@
+import { assetUrl } from '../lib/asset'
 import useReveal from '../lib/useReveal'
 import './Reviews.css'
 
 const REVIEWS = [
   {
-    image: '/reviews/20dcdc23e2a4f226f07d20c7877b8cac.jpg',
+    image: assetUrl('/reviews/20dcdc23e2a4f226f07d20c7877b8cac.jpg'),
     name: 'Ethan R.',
     rating: 5,
     text: 'Oud Wood is unreal — rich, warm, and it lasts the entire day without turning sharp.',
   },
   {
-    image: '/reviews/661c3eccb4e65e1807e740ef7618ae1c.jpg',
+    image: assetUrl('/reviews/661c3eccb4e65e1807e740ef7618ae1c.jpg'),
     name: 'Maya L.',
     rating: 5,
     text: 'Lavender Blossom is my new signature. Soft, calming, and I get compliments every time.',
   },
   {
-    image: '/reviews/46956dba564442462cef3ad1a8c08ec9.jpg',
+    image: assetUrl('/reviews/46956dba564442462cef3ad1a8c08ec9.jpg'),
     name: 'Priya K.',
     rating: 5,
     text: 'Ruby Passion smells expensive. The bottle alone makes it feel like a gift to myself.',
   },
   {
-    image: '/reviews/c093b9cd25b45bf7a7500b7a1b1b7ff1.jpg',
+    image: assetUrl('/reviews/c093b9cd25b45bf7a7500b7a1b1b7ff1.jpg'),
     name: 'Jordan B.',
     rating: 4,
     text: "Blue Wave is fresh without being generic. It's become my everyday scent.",

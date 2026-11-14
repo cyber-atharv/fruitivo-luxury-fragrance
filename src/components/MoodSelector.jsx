@@ -1,3 +1,4 @@
+import { assetUrl } from '../lib/asset'
 import { useEffect, useRef, useState } from 'react'
 import { FaHeart, FaFire, FaGem, FaLeaf, FaCompass, FaCrown, FaBolt } from 'react-icons/fa'
 import './MoodSelector.css'
@@ -6,43 +7,43 @@ const MOODS = [
   {
     title: 'The Romantic',
     description: 'Warm florals for golden-hour moments',
-    image: '/people/a127d1dc816a727207dfcd788e440d3f.jpg',
+    image: assetUrl('/people/a127d1dc816a727207dfcd788e440d3f.jpg'),
     icon: <FaHeart size={20} className="mood-icon-svg" />,
   },
   {
     title: 'The Magnetic',
     description: 'Deep, smoky notes that linger',
-    image: '/people/c6d03a9f02d2cfb0410ae129e6e6f95c.jpg',
+    image: assetUrl('/people/c6d03a9f02d2cfb0410ae129e6e6f95c.jpg'),
     icon: <FaFire size={20} className="mood-icon-svg" />,
   },
   {
     title: 'The Icon',
     description: 'Bold, unapologetic elegance',
-    image: '/people/ed7c9b6e46615e66e8f44b328fd616d3.jpg',
+    image: assetUrl('/people/ed7c9b6e46615e66e8f44b328fd616d3.jpg'),
     icon: <FaGem size={20} className="mood-icon-svg" />,
   },
   {
     title: 'The Free Spirit',
     description: 'Fresh greens, botanical calm',
-    image: '/people/1b05dd54172b151618ac9b7ecba9e51d.jpg',
+    image: assetUrl('/people/1b05dd54172b151618ac9b7ecba9e51d.jpg'),
     icon: <FaLeaf size={20} className="mood-icon-svg" />,
   },
   {
     title: 'The Adventurer',
     description: 'Daring scents for bold days',
-    image: '/people/af6777ce69cecd4b65da707386eb43c6.jpg',
+    image: assetUrl('/people/af6777ce69cecd4b65da707386eb43c6.jpg'),
     icon: <FaCompass size={20} className="mood-icon-svg" />,
   },
   {
     title: 'The Seductress',
     description: 'Amber warmth, magnetic allure',
-    image: '/people/a83ce099b074f55ed9d9f3bc5c51ae93.jpg',
+    image: assetUrl('/people/a83ce099b074f55ed9d9f3bc5c51ae93.jpg'),
     icon: <FaCrown size={20} className="mood-icon-svg" />,
   },
   {
     title: 'The Rebel',
     description: 'Fresh, fearless, unforgettable',
-    image: '/people/f4e9be922233f0d3c234809267fdf86d.jpg',
+    image: assetUrl('/people/f4e9be922233f0d3c234809267fdf86d.jpg'),
     icon: <FaBolt size={20} className="mood-icon-svg" />,
   },
 ]

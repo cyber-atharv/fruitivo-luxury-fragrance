@@ -110,7 +110,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Fruitivo. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Fruitivo Luxury Fragrances • Designed & Developed by <a href="https://github.com/cyber-atharv" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', fontWeight: 600 }}>Atharv Hogade</a> • Contact: <a href="mailto:atharvhogade12@gmail.com" style={{ color: '#fff' }}>atharvhogade12@gmail.com</a></p>
       </div>
     </footer>
   )

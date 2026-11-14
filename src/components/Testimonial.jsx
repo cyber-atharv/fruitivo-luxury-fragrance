@@ -1,7 +1,8 @@
+import { assetUrl } from '../lib/asset'
 import useReveal from '../lib/useReveal'
 import './Testimonial.css'
 
-const TESTIMONIAL_IMAGE = '/people/bc35a325a8cfb0a10757433a4e67cc4c.jpg'
+const TESTIMONIAL_IMAGE = assetUrl('/people/bc35a325a8cfb0a10757433a4e67cc4c.jpg')
 
 const Star = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="#e0a951">

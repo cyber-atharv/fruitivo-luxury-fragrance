@@ -1,4 +1,5 @@
-const BOTTLE_PATH = '/images/perfume'
+import { assetUrl } from '../lib/asset'
+const BOTTLE_PATH = assetUrl('/images/perfume')
 
 export const perfumes = [
   {
